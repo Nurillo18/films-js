@@ -1,6 +1,7 @@
 var elSelect = document.querySelector(".form_select");
 var elList = document.querySelector(".list");
-
+let elForm = document.querySelector(".form");
+let elBtn = document.querySelector(".btn");
 
 
 
@@ -72,3 +73,14 @@ function time(format) {
 
     }
     genreArrey(films);
+
+    // elForm.addEventListener("submit" , evt => {
+    //     evt.preventDefault();
+    //     const elSelectVal = elSelect.value;
+    //     console.log(elSelectVal);
+
+    //     const filterFilm = films.filter( item => {
+    //         return item.genres.includes(elSelectVal);
+    //     });
+
+    // })
